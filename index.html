@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cooking Conversions</title>
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <script src="js/jquery-3.2.1.js"></script>
+      <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Julian and Isabel's Cooking Conversion</h2>
+        <div class="well">
+          <form id="tbsToCups">
+            <div class="form-group">
+              <select class="form-control" id="conversion">
+                <option value="cupsToTbs">Cups to tablespoons</option>
+                <option value="tbsToCups">Tablespoons to cups</option>
+              </select>
+              <label for="input">Input</label>
+              <input type="text" id="input" class="form-control">
+            </div>
+            <button type="submit" class="btn">Convert</button>
+          </form>
+          <p><strong>Result</strong></p>
+          <div id="result">
+
+          </div>
+          <!-- <form id="cupsToTbs">
+            <div class="form-group">
+              <label for="cups2">Cups</label>
+              <input type="text" id="cups2" class="form-control">
+            </div>
+            <button type="submit" class="btn">Add!</button>
+          </form>
+          <div id="tbs2">
+
+          </div>
+      </div> -->
+    </div>
+  </body>
+</html>
