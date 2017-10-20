@@ -18,16 +18,13 @@ $(document).ready(function() {
 
     event.preventDefault();
     var conversion = $("#conversion").val();
-    if(conversion === tbsToCups){
-      alert("hi");
-      var input = parseInt($("#input").val());
+    var input = parseInt($("#input").val());
+    if(conversion === "tbsToCups"){
       var result = tbsToCups(input);
-      $("#result").text(result);
     };
-    if(conversion === cupsToTbs) {
-      var input = parseInt($("#input").val());
+    if(conversion === "cupsToTbs") {
       var result = cupsToTbs(input);
-      $("#result").text(result);
     };
+    $("#result").text(result);
   });
 });
